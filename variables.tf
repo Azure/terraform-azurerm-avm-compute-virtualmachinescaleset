@@ -781,7 +781,7 @@ EOT
 
 variable "zone_balance" {
   type        = bool
-  default     = null
+  default     = false
   description = <<-EOT
 (Optional) Should the Virtual Machines in this Scale Set be strictly evenly distributed across Availability Zones? Defaults to `false`. Changing this forces a new resource to be created.
 
